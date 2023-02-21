@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 30vw;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .button-container {
+    min-height: 40vh;
+    min-width: 50vw;
+  }
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.button {
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  padding: 8px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+  }
+}
